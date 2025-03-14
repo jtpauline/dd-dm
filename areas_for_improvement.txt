@@ -1,0 +1,10 @@
+1. **Party.tsx: Syntax Error**: The "Unexpected token, expected "jsxTagEnd" (617:73)" error needs to be resolved.
+2. **Party.tsx: Feat Indentation**: The alphabetical listing and prerequisite-based indentation for feats needs to be implemented.
+3. **Party.tsx: Skill Point Assignment**: The logic for skill point assignment and validation can be improved for clarity and efficiency.
+4. **CombatTracker.tsx: Input Handling**: The damage/healing input fields could benefit from better validation and potentially the use of a controlled component for more predictable behavior.
+5. **General: Code Readability**: Ensure consistent formatting and clear naming conventions across all components.
+6. **General: Error Handling**: Implement more robust error handling, especially around local storage operations.
+7. **General: UI Consistency**: Ensure a consistent look and feel across all components, particularly in form elements and button styles.
+8. **General: Accessibility**: Consider accessibility best practices to ensure the application is usable by everyone.
+9. **General: Modularity**: Further break down large components into smaller, reusable components to improve maintainability.
+10. **General: Testing**: Write more unit tests to cover critical functionality, especially in `Party.tsx` and `CombatTracker.tsx`.

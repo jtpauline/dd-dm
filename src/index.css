@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Error Handling Styles */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+}
+
+.error-container h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.error-container p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.error-container a {
+  padding: 15px 30px;
+  background-color: #fff;
+  color: #f44336;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.error-container a:hover {
+  background-color: #ddd;
+}
+
+/* Accessibility improvements */
+button:focus,
+select:focus,
+input:focus {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+}
